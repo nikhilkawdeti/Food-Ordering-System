@@ -1,0 +1,51 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    // background-color: #555;
+    color: #000080;
+    // float: left;
+    border: 1px solid #000080;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 24%;
+}
+
+.tablink:hover {
+    background-color: #000080;
+    color: #fcf2d8;
+    font-weight: 500;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: #000080;
+    display: none;
+    padding: 100px 20px;
+    margin-top: 2px;
+    height: 600px;
+    // border: 1px solid black;
+}
+
+#Home {
+    background-color: #fcf2d8;
+}
+
+#Cart {
+    background-color: #fcf2d8;
+}
+
+#Contact {
+    background-color: #fcf2d8;
+}
+
+#About {
+    background-color: #fcf2d8;
+}

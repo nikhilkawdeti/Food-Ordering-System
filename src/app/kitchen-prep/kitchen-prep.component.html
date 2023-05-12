@@ -1,0 +1,18 @@
+<div id="Kitchen-Prep" class="tabcontent">
+  <div class="container" style="margin-top: -60px; text-align: center">
+    <p style="font-size: 2rem">Kitchen-Prep</p>
+    <p style="font-size: 1.4rem; margin-top: 30px">
+      Total Amount: {{ totalAmount }}
+    </p>
+    <div
+      class="list-group-item"
+      *ngFor="let itemsOfKitchenList of kitchenList; let i = index"
+      style="height: 65px"
+    >
+      {{ i + 1 }} . {{ itemsOfKitchenList.name }}
+    </div>
+  </div>
+  <div class="container" style="margin-left: 44%">
+    <button class="btn btn-danger" (click)="clear()">Next Order</button>
+  </div>
+</div>
